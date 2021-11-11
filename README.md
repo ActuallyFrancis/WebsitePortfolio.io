@@ -1,2 +1,2 @@
 # websiteportfolio
-My personal website/portfolio
+This will serve as my main website/portfolio wherein I'll be practicing html, css, and js

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <!-- Navigation Bar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo">F</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#whatido" class="navbar__links" id="whatido-page">What I do</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#aboutme" class="navbar__links" id="aboutme-page">Portfolio</a>
+                </li>
+                <li class="navbar__btn">
+                  <div class="table_center"><a href="#contactme">click</a>
+                </li>
+                
+            </ul>
+        </div>
+        </nav>
+        <!-- HERO -->
+        <div class="hero" id="home">
+            <div class="hero__container">
+                <h1 class="hero__heading">Hi I'm <span>Francis Iguico</span></h1>
+                <!--Primary Button -->
+                <input type="checkbox" name="checkbox" id="modal" value="value">
+                <label for="modal">Hey</body>!</label>
+
+                <!-- The Modal Window -->
+                <div class="modalpop">
+                  <label for="modal"></label>
+                  <div class="modalpopup">
+                    <h1> Welcome to my website! </h1>
+                    <p>My name is Francis and I have a plethora of skills within web development, programming,
+                      digital artworks, modelling, marketing, data analytics, crypto and stocks. 
+                      Let's work together by finding out how I can provide my value to you and how you
+                      can help me climb the ladder
+                    </p>
+                  </div>
+                </div> 
+                
+            </div>
+        </div>
+
+        <!-- What I do -->
+        <div class="main" id="whatido">
+            <div class="main__container">
+              <div class="main__img--container">
+              <img class="mypic" src="/assets/PICTURE (1).png"" alt="mypic">
+              </div>
+              <div class="main__content">
+                <h1></h1>
+                <h2>Digital Artist Commercial Modelling & Developer </h2>
+                <p>the quick brown foxj umps over the lazy dog the quuickb brown foxj umpso ver tha</p>
+                
+                
+                <button class="main__btn"><a href="https://drive.google.com/uc?export=download&id=1K3shfoFcNwlbyPFPrckGmYK8UFKXdB16">Download Resume</a></button>
+                <!--  
+                <div class="cert">
+                  <img class="PICTURE2" src="/assets/Cert.jpg" alt="certificate">
+                  
+                </div>
+                <div class="cert2">
+                  <img class="PICTURE3" src="/assets/Cert2.jpg" alt="certificate2">
+                  
+                </div> -->
+                
+              
+              </div>
+            </div>
+          </div>
+          <!-- What I do Footer -->
+
+          <div class="footer__container">
+            <div class="footer__links">
+              <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                  
+                  
+                  <h2>Certifications</h2>
+                  <a href="/assets/GoogleCert.pdf">Google - Digital Marketing</a> 
+                  <a href="/assets/AlisonCert.pdf">Alison - CompTIA Cloud Basic+</a>
+                  
+                  
+
+                </div>
+                <div class="footer__link--items">
+                  <div class="skills">
+                  <h2>Skills </h2>
+                  <div class="popup" onclick="myFunction()"><a>Day Trading</a>
+                    <span class="popuptext" id="myPopup"><p><ol>
+                      <ul>Actively managed 300k+ portfolio in PSEI inclusion of stocks, bonds,
+                        and with ETFs through Relative Valuation of peers and ratios.  
+                      <p>&nbsp;</p>
+                      <li>A six figure portfolio that out performed the market by 24% over 3 months.
+                      </li>
+                    </ul>
+                  </span>
+                  </div> 
+                  <p></p>
+                </div>
+            
+                <script>
+                  // When the user clicks on <div>, open the popup
+                  function myFunction() {
+                    var popup = document.getElementById("myPopup");
+                    popup.classList.toggle("show");
+                  }
+                  </script>
+                    
+                    <div class="popup1" onclick="myFunction1()"><a>Photo & Video Editing</a>
+                      <span class="popuptext1" id="myPopup1"><p><ol>
+                        <ul>Proficient in using Adobe Photoshop, Adobe Illustrator,  and Paint Tool Sai 
+                        <p>&nbsp;</p>
+                        <li>Proficient in using Hitfilm Express, Adobe After Effects, and Da Vinci Resolve
+                        </li>
+                      </ul>
+                      </p>
+                    </span>
+                    </div> 
+                    <script>
+                      // When the user clicks on <div>, open the popup
+                      function myFunction1() {
+                        var popup = document.getElementById("myPopup1");
+                        popup.classList.toggle("show1");
+                      }
+                      </script>
+                  
+                
+                  <a href="/"></a>  
+                </div>
+              </div>
+              <div class="footer__link--items">
+                <h2>Social Media</h2>
+                
+                <a href="https://www.linkedin.com/in/francis-miguel-iguico-353883211/"target="_blank">Linkedin</a> 
+                <a href="https://www.instagram.com/micoofthemoon/"target="_blank">Instagram</a>
+                <a href="https://medium.com/@micofrancis123456"target="_blank">Medium</a>
+              </div>
+            
+              </div>
+            </div>
+            <section class="social__media">
+              <div class="social__media--wrap">
+                <div class="footer__logo">
+                  <a href="/" id="footer__logo"></a>
+                </div>
+                <p class="website__rights"></p>
+                <div class="social__icons">
+                  <a href="/" class="social__icon--link" target="_blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="/" class="social__icon--link"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+              </div>
+            </section>
+          </div>
+                                                                                  
+          <!-- Portfolio -->
+          <div class="aboutme" id="aboutme">
+            <h1>My Portfolio</h1>
+            <div class="aboutme__wrapper">
+              <div class="aboutme__card">
+                <h2>Art Portfolio</h2>
+                <p>Concept Art Experience</p>
+                <div class="aboutme__btn"><a href="/portfolio.html"><button>View</a></button></div>
+              </div>
+              <div class="aboutme__card">
+                <h2>Commercial Projects</h2>
+                <p>TV Commercials & Print Ad Experience</p>
+                <div class="aboutme__btn"><a href="/Commercial.html"><button>View</a></button></div>
+              </div>
+              <div class="aboutme__card">
+                <h2>App Development</h2>
+                <p>My Projects</p>
+                <div class="aboutme__btn"><a href="/Apps.html"><button>View w/ Source Code</a></button></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Contact me -->
+          <div class="contactme" id="contactme">
+            <div class="contactme__container">
+          
+                <h1 class="contactme__heading">Contact Me </h1>
+                
+                <p class="contactme__description">iguicofrancis@gmail.com</p>
+                <p class="contactme__description">+63 9666557858</p>
+              </div>
+          </div>
+          <!--CONTACT ME -->
+        <!-- <div class="popup" id="popup-1"> 
+            <div class="overlay">
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">& times;
+                    </div>
+                    <img class="PICTURE2" src="/assets/" alt="my photo"></div>
+                    ,<button>onclick="togglePopup()">aboutme__btn</button>
+                </div>
+            </div>
+        </div>-->
+        
+                        
+        
+    <script src="app.js"></script>
+</body>
+</html>
