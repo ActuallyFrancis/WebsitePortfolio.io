@@ -1585,7 +1585,7 @@ ul {
     padding: 20px 60px;
     border: none;
     border-radius: 6px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
@@ -1602,5 +1602,5 @@ ul {
     z-index: 1;
     width: 50%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 20px;
 }
