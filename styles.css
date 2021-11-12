@@ -1538,6 +1538,7 @@ ul {
         }
 
         .commercial3__description {
+
             font-size: 40px;
         }
 
@@ -1549,14 +1550,18 @@ ul {
 }
 
 
-.appbtn {
+.commerical2container a {
+    position: relative;
+    z-index: 2;
+    color: rgb(241, 241, 241);
+    text-decoration: none;
     font-size: 1.8rem;
     background: #ffffff;
-    background: -webkit-linear-gradient(to right, #000000, #292727, #361050);
-    background: linear-gradient(to right, #000000, #000000, #000000);
+    background: -webkit-linear-gradient(to right, #ffffff, #e4e4e4, #a7a7a7);
+    background: linear-gradient(to right, #ad5a5a, #8b2929, #703030);
     padding: 20px 60px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -1564,66 +1569,21 @@ ul {
     outline: none;
 }
 
-.appbtn {
+.commerical2__container a {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: rgb(241, 241, 241);
     text-decoration: none;
-}
-
-.appbtn:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #3f3f3f;
+    font-size: 1.8rem;
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, #ffffff, #e4e4e4, #a7a7a7);
+    background: linear-gradient(to right, #ad5a5a, #8b2929, #703030);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
     transition: all 0.35s;
-    border-radius: 4px;
-}
-
-.appbtn:hover {
-    color: #fff;
-}
-
-.main__btn:hover:after {
-    width: 100%;
-}
-}
-
-/*
-.cert {
-    display: flex;
-    padding: 10px;
-    width: 250px;
-    height: 250x;
-    margin-top: 30px;
-
-}
-
-.cert {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 4 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.cert2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 50px;
+    outline: none;
 }
