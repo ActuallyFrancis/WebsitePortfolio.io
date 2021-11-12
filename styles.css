@@ -1549,6 +1549,10 @@ ul {
 
 }
 
+.commercial2__description p ul {
+    color: yellow;
+}
+
 
 .commerical2container a {
     position: relative;
@@ -1586,4 +1590,17 @@ ul {
     position: relative;
     transition: all 0.35s;
     outline: none;
+}
+
+.aboutdesc p {
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 50%;
+    max-width: 1300px;
+    padding: 0 50px;
 }
